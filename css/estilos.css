@@ -48,13 +48,14 @@ max-width:500px;
 .hero-texto h1{
 font-size:42px;
 margin-bottom:20px;
+align-items: center;
 }
 
 .btn-principal{
 display:inline-block;
 margin-top:20px;
 padding:12px 25px;
-background:#63b6b7;
+background:#000000;
 color:white;
 text-decoration:none;
 border-radius:6px;
