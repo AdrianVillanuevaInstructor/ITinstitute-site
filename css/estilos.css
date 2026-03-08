@@ -79,6 +79,15 @@ margin-top:40px;
 text-align:center;
 }
 
+/* effect for text inside benefit cards */
+.beneficio p{
+    transition: transform 0.3s ease;
+}
+
+.beneficio:hover p{
+    transform: scale(1.1);
+}
+
 .beneficio i{
 font-size:35px;
 color:#63b6b7;
