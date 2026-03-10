@@ -160,3 +160,82 @@ background:#63b6b7;
 text-align:center;
 padding:20px;
 }
+
+/* CURSOS PAGE */
+.cursos{
+    padding:40px;
+    text-align:center;
+}
+.cursos h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+.cursos .banner-descuento{
+    margin:20px 0;
+}
+.cursos .filtros{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:30px;
+}
+.cursos .cards-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:20px;
+    justify-items:center;
+}
+.cursos .card{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    width:100%;
+    max-width:280px;
+    text-align:left;
+}
+.cursos .card .tag{
+    font-size:12px;
+    color:#888;
+    text-transform:uppercase;
+    margin-bottom:6px;
+}
+.cursos .card h3{
+    font-size:18px;
+    margin:8px 0;
+}
+.cursos .card .price-info{
+    margin:10px 0;
+}
+.cursos .card .price-info .discount{
+    background:#63b6b7;
+    color:white;
+    padding:2px 6px;
+    font-size:12px;
+    border-radius:4px;
+    margin-right:6px;
+}
+.cursos .card .price-info .old-price{
+    text-decoration:line-through;
+    font-size:13px;
+    color:#555;
+    margin-right:6px;
+}
+.cursos .card .price-info .new-price{
+    font-weight:bold;
+    font-size:16px;
+    color:#000;
+}
+.cursos .card .btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 16px;
+    background:#000;
+    color:#fff;
+    text-decoration:none;
+    border-radius:4px;
+    font-size:14px;
+}
+.cursos .card .btn:hover{
+    background:#4ea2a3;
+}
